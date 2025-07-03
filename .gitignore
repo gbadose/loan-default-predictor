@@ -1,0 +1,79 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+*.pyo
+*.pyd
+*.pkl
+*.log
+
+# Environment
+.env
+.env.*
+
+# Virtualenvs
+.venv/
+venv/
+ENV/
+env/
+pip-wheel-metadata/
+
+# VS Code / IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Docker
+*.pid
+*.seed
+docker-compose.override.yml
+docker-compose.*.yml
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Data files
+*.csv
+*.tsv
+*.parquet
+*.db
+*.sqlite
+*.h5
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+*.out
+
+# Unit test
+htmlcov/
+.coverage
+.tox/
+.nox/
+.cache/
+pytest_cache/
+.pytest_cache/
+
+# Reports
+metrics.txt
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Ignore trained models (optional if you save them locally too)
+model/
+
+# System files
+*.swp
